@@ -65,7 +65,7 @@ function Blog() {
             <article>
                 <h1 className="mb-4">{blogPost.title}</h1>
                 <div className="mb-3">
-                    <small className="text-muted">
+                    <small>
                         Par {blogPost.author} • {new Date(blogPost.date).toLocaleDateString()}
                     </small>
                 </div>
